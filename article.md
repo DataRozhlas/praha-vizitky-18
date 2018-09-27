@@ -1,5 +1,5 @@
 title: "Volební vizitky: Souboj o Prahu. Kdo usedne do primátorského křesla?"
-perex: "Češi si začátkem října vyberou své zastupitele ve městech a obcích. Objem peněz a dopady jejich rozhodování jsou ve velkých městech srovnatelné s leckterým ministerstvem. Jeden z nesledovanějších soubojů se povede o pražský magistrát. Český rozhlas proto oslovil všechny kandidáty, kteří se ucházejí o post primátora. Kdo nahradí stávající primátorku Adrianu Krnáčkovou z ANO, rozhodnou voliči v pátek 5. a sobotu 6. října."
+perex: "Češi si začátkem října vyberou své zastupitele ve městech a obcích. Objem peněz a dopady jejich rozhodování jsou ve velkých městech srovnatelné s leckterým ministerstvem. Jeden z nesledovanějších soubojů se povede o pražský magistrát. Český rozhlas proto oslovil všechny kandidáty, kteří se ucházejí o post primátora. Kdo nahradí stávající primátorku Adrianu Krnáčovou z ANO, rozhodnou voliči v pátek 5. a sobotu 6. října."
 published: "28. září 2018"
 coverimg: https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/profimedia-015082003_180927-132757_ako.jpg?itok=EChjdEr9
 coverimg_note: "Foto: Profimedia"
