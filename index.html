@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)http://rozhlas2017.superkoderi.cz/tpl/14-datari.html -->
+<html lang="cs" class="js fonts-loaded no-touchevents"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=0">
+
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="Dataři">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:image" content="../img/illust/twitter.jpg">
+
+	<meta property="og:title" content="Dataři">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="../img/illust/facebook.jpg">
+	<meta property="og:site_name" content="Project">
+	<meta property="og:url" content="http://www.rozhlas.cz/zpravy/portal/">
+
+	<title>Dataři | iRozhlas</title>
+
+	<link rel="stylesheet" href="./wrapper_files/style.css" media="screen, handheld">
+
+	<link rel="icon" href="http://rozhlas2017.superkoderi.cz/img/favicon.ico">
+	<link rel="apple-touch-icon" href="http://rozhlas2017.superkoderi.cz/img/apple-touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="http://rozhlas2017.superkoderi.cz/img/apple-touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="http://rozhlas2017.superkoderi.cz/img/apple-touch-icon-large.png">
+
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<script>
+		(function () {
+			var className = document.documentElement.className;
+			isOperaMini = (navigator.userAgent.indexOf('Opera Mini') > -1);
+
+			function getCookie(name) {
+				var value = '; ' + document.cookie;
+				var parts = value.split('; ' + name + '=');
+				if (parts.length === 2) return parts.pop().split(';').shift();
+			}
+
+			var textSize = getCookie('textSize');
+
+			if (textSize) {
+				document.documentElement.setAttribute('data-fz', textSize);
+			}
+
+			className = className.replace('no-js', 'js');
+
+			if(document.cookie.indexOf('fontsLoaded') > -1) {
+				className += ' fonts-loaded';
+			}
+
+			if(document.cookie.indexOf('inverseVersion') > -1) {
+				className += ' page-inverse';
+			}
+
+			if(document.cookie.indexOf('textVersion') > -1 || isOperaMini) {
+				className += ' page-text-version';
+			}
+
+			if(isOperaMini) {
+				className += ' operamini';
+			}
+
+			if(/iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream) {
+				className += ' ios';
+			}
+
+			if(document.querySelector && document.cookie.indexOf('forceDesktop') > -1) {
+				var viewport = document.querySelector("meta[name=viewport]");
+				viewport.setAttribute('content', 'width=1200');
+				className += ' page-forced-desktop';
+			}
+
+			document.documentElement.className = className;
+		}());
+	</script>
+
+	<script src="./wrapper_files/modernizr.min.js"></script>
+<style type="text/css">
+:root #content > #center > .dose > .dosesingle,
+:root #content > #right > .dose > .dosesingle
+{ display: none !important; }</style><style type="text/css">
+:root #content > #right > .dose > .dosesingle,
+:root #content > #center > .dose > .dosesingle
+{ display: none !important; }</style></head>
+
+	<body id="top" class="">
+<nav class="m-accessibility" aria-labelledby="m-accessibility">
+	<p id="m-accessibility" class="vhide">Přístupnostní navigace</p>
+	<a title="Přejít k obsahu (Klávesová zkratka: Alt + 2)" accesskey="2" href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#main">Přejít k obsahu</a>
+	<span class="hide">|</span>
+	<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#menu-main">Přejít k hlavnímu menu</a>
+	<span class="hide">|</span>
+	<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#form-search">Přejít k vyhledávání</a>
+</nav>
+
+		<header class="header header--simple" role="banner">
+			<div class="row-main">
+				<div class="header__top hide--m">
+<div class="header__search">
+	<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="header__login">Přihlásit</a>
+
+	<form id="form-search" action="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html?" class="f-search f-search--header" role="search">
+		<p class="inp">
+			<label for="search-header" class="inp__label js-search">
+				<span class="icon-svg icon-svg--search">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-search" x="0" y="0" width="100%" height="100%"></use>
+</svg><span class="icon-svg__fallback">Vyhledávání</span>	
+</span>
+
+			</label>
+			<span class="inp__fix">
+				<input type="text" placeholder="Zadejte hledaný výraz" class="inp__text inp__text--icon-after" id="search-header" name="search-header">
+
+				<button class="btn btn--icon-blank" type="submit">
+					<span class="btn__text">
+						<span class="icon-svg icon-svg--search">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-search" x="0" y="0" width="100%" height="100%"></use>
+</svg><span class="icon-svg__fallback">Vyhledat</span>	
+</span>
+
+					</span>
+				</button>
+			</span>
+		</p>
+	</form>
+</div>
+				</div>
+
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="header__images js-text-version--icon">
+					<span class="icon-svg icon-svg--images">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-images" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+					<span class="vhide">Zobrazit obrázky</span>
+				</a>
+
+	<p class="header__logo">
+		<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">
+			<span class="vhide">iRozhlas</span>
+			<span class="icon-svg icon-svg--logo-irozhlas">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-logo-irozhlas" x="0" y="0" width="100%" height="100%"></use>
+</svg><span class="icon-svg__fallback">iRozhlas</span>	
+</span>
+
+		</a>
+	</p>
+
+				<nav id="menu-main" class="m-main m-main--simple" role="navigation" aria-labelledby="m-main">
+					<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-main__toggle js-mobile-menu" id="m-main">
+						<span class="vhide">Hlavní menu</span>
+						<span class="icon-svg icon-svg--menu">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-menu" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+					</a>
+
+					<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-main__link m-main__link--home js-static-menu" data-src="./m-static.html">
+						<span class="vhide">Český rozhlas - Zprávy</span>
+						<span class="icon-svg icon-svg--symbol">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-symbol" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+					</a>
+				</nav>
+			</div>
+
+			<p class="header__socials">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">
+					<span class="icon-svg icon-svg--facebook">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-facebook" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+					<span class="vhide">Facebook</span>
+				</a>
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">
+					<span class="icon-svg icon-svg--twitter">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-twitter" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+					<span class="vhide">Twitter</span>
+				</a>
+			</p>
+		</header>
+
+		<main id="main" class="main" role="main">	
+		<article role="article" class="b-data"> 			
+			<div class="b-data__bg" style="background-image: url('https://www.irozhlas.cz/sites/default/files/styles/zpravy_snowfall/public/uploader/profimedia-015082003_180927-132757_ako.jpg?itok=EChjdEr9');"><span class="b-data__caption">Foto: Profimedia</span></div>
+<header class="b-data__header">
+<div class="row-main">
+	<h1 class="b-data__title">
+		<strong>Volební vizitky: Souboj o Prahu. Kdo usedne do primátorského křesla?</strong>
+	</h1>
+	<p class="meta meta--lg">
+	<!--[[ZPRAVY_SNOWFALL_AUTHORS:HEADER]]-->
+	<span class="meta__separator">|</span>
+	<time>28. září 2018</time>
+	</p>	
+	<p>
+	<a href="#content" class="b-data__link js-scroll-to">
+	Čtěte dále
+	<span class="b-data__link-icon">
+	<span class="icon-svg icon-svg--arrow-down">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="/sites/all/themes/custom/irozhlas/img/bg/icons-svg.svg#icon-arrow-down" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+</span>
+</a>
+</p>
+</div>
+</header> 
+
+<div class="b-data__content" id="content">
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://code.highcharts.com/maps/highmaps.js"></script>
+
+<style>li{background:none !important;margin:0 !important;padding:0 !important}ul,ol{list-style:initial !important;font-size:medium !important;line-height:1.5 !important}hr{max-width:none !important}#container{min-height:200px;height:60vh;min-width:200px;width:100%;margin:0 auto}.loading{margin-top:10em;text-align:center;color:gray}#insert{width:100%}#select{top:10px;display:table;margin:0 auto}.vizitky{margin-top:25px;max-width:700px}.vizitky h1{font-size:24px;color:#ab0000;margin:0 0 25px 0}.vizitky ul{list-style-type:none !important;padding:0;margin:0;width:100%;max-width:800px}.vizitky li{padding-left:0 !important}.vizitky ul li{background:none !important;display:flex;flex-direction:row;margin-bottom:15px;width:100%}.vizitky ul li .left{line-height:0;order:1;min-height:180px}.vizitky ul li .right{position:relative;order:2;padding-left:15px;flex-grow:1;background:rgba(254,255,255,0.5);background:linear-gradient(to right,rgba(255,255,255,0) 0,#fff 15px)}.vizitky ul li h2{font-size:22px;font-weight:bold;margin:0 0 9px 0;line-height:1em;color:#036;position:relative;padding-left:28px}.vizitky ul li h2 .cislo{position:absolute;top:0;left:0;width:19px;height:19px;line-height:19px;background:#036;color:#fff;font-size:10px;border-radius:50%;text-align:center}.vizitky ul li .strana{display:block;color:#333;font-size:13px}.vizitky ul li .supplemental,.vizitky ul li img{width:120px;height:auto;margin:3px}.vizitky ul li audio{position:auto;width:100%}.share{margin-top:5px;display:block;color:#333;font-size:13px}.share{font-size:12px}.is-share .vizitky{order:1;margin-top:0}.is-share .invitation{order:2;margin-bottom:10px}.is-share .mapka{order:3}</style>
+<div class="row-main row-main--narrow">
+
+<p class="text-bold text-lg">Češi si začátkem října vyberou své zastupitele ve městech a obcích. Objem peněz a dopady jejich rozhodování jsou ve velkých městech srovnatelné s leckterým ministerstvem. Jeden z nesledovanějších soubojů se povede o pražský magistrát. Český rozhlas proto oslovil všechny kandidáty, kteří se ucházejí o post primátora. Kdo nahradí stávající primátorku Adrianu Krnáčkovou z ANO, rozhodnou voliči v pátek 5. a sobotu 6. října.</p>
+
+<p>Český rozhlas oslovil všech 236 kandidátů a kandidátek do Senátu. Část z nich ale nabídku na natočení volební vizitky odmítla. U některých je pak kvůli podezření z porušení pravidel pro jejich vysílání muselo posuzovat právní oddělení Českého rozhlasu. Pravidla pro volební vizitky jsou veřejně dostupná <a href="https://www.rozhlas.cz/informace/volby2018/_zprava/pravidla-pro-nataceni-a-vysilani-volebnich-vizitek-kandidatu-ve-volbach-do-senatu-pcr-2018--1803006">zde</a>.</p>
+<p>Český rozhlas oslovil všech 29 lídrů stran a hnutí, kteří by po podzimních komunálních volbách chtěli vést Prahu. Někteří z nich ale nabídku na natočení volební vizitky nevyužili nebo za sebe poslali jiného stranického kandidáta. Pravidla pro volební vizitky jsou veřejně dostupná <a href="https://www.rozhlas.cz/informace/volby2018/_zprava/pravidla-pro-nataceni-a-vysilani-volebnich-vizitek-kandidatu-ve-volbach-do-zastupitelstva-hl-m-prahy-2018--1803007">zde</a>.</p>
+<p></div><div class="row-main row-main--article">
+<div class="insert">
+    <div id="bottom" class="vizitky"></div>
+</div>
+</div><div class="row-main row-main--narrow"></p>
+<p>Podoba volebních vizitek je pro všechny kandidáty jednotná. Český rozhlas jim položil celkem šest otázek. První dotaz zní „Proč by lidé měli volit právě Vaší stranu/hnutí/sdružení/koalici?“ a na odpověď mají všichni jednu minutu.</p>
+<p>Časový limit u dalších pěti otázek je 30 sekund. Kandidáti samozřejmě můžou odpovědět v kratším čase, ušetřené sekundy se ale nepřevádějí.</p>
+<h3>Český rozhlas se dále ptal:</h3>
+<ul>
+<li>
+<p>Co je podle Vás v současné době největším problémem Prahy?</p>
+</li>
+<li>
+<p>Jak byste ho chtěl řešit?</p>
+</li>
+<li>
+<p>Mělo by podle Vás hlavní město Praha aktivně podpořit výstavbu nových bytů? Pokud ano, jak?</p>
+</li>
+<li>
+<p>Chtěl byste v příštích 4 letech zahájit nějaké nové dopravní stavby? Pokud ano, které?</p>
+</li>
+<li>
+<p>Jak konkrétně byste chtěl zlepšit život obyvatel Prahy?</p>
+</li>
+</ul>
+<p>Kandidáti do zastupitelstva hlavního města Prahy sice všechny otázky předem znali, při natáčení ale museli odpovídat z hlavy a na první pokus. Pokud se ztratili v odpovědi, mohli se vrátit na začátek příslušné věty a zopakovat ji. Nemohli ale mít před sebou připravený text ani poznámky na papíře nebo v mobilním telefonu nebo tabletu.</p>
+<p>Rozhovory s jednotlivými kandidáty se ve vysílání Českého rozhlasu Regina a Region objeví postupně. Pořadí určil los, na který dohlížel <a href="https://www.rozhlas.cz/informace/volby2018/_zprava/poradi-ucasti-kandidujicich-subjektu-v-jednotlivych-poradech-predvolebniho-vysilani-ceskeho-rozhlasu--1803448">notář</a>.</p>
+<h3><a href="https://www.irozhlas.cz/volby/komunalni-volby-2018" title="Sčítací aplikace Komunální volby 2018">Komunální volby 2018</a></h3>
+
+<h3><a href="https://www.irozhlas.cz/volby/senatni-volby-2018" title="Sčítací aplikace Senátní volby 2018">Senátní volby 2018</a></h3>
+
+<p class="meta meta--right meta--big">
+<!--[[ZPRAVY_SNOWFALL_AUTHORS:FOOTER]]-->
+</p>
+</div>
+<!--[[ZPRAVY_SNOWFALL_RELATED:ARTICLES]]-->
+</div>
+</article>
+</div>
+</div>
+</div><script>
+var data={"1_1":{"jmeno":"Ji\u0159\u00ed V\u00edtek","povolani":"hasi\u010d, lektor civiln\u00ed ochrany, p\u0159edseda BD","partaj":"Patrioti","file":"1_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"2_1":{"jmeno":"Ivan Hole\u0161insk\u00fd","povolani":"mana\u017eer","partaj":"Otev\u0159en\u00e1 radnice","file":"2_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"3_1":{"jmeno":"Tom\u00e1\u0161 Kr\u010dma","povolani":"syst\u00e9mov\u00fd specialista","partaj":"Spole\u010d.proti v\u00fdst.v Prok.\u00fadol\u00ed","file":"3_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"4_1":{"jmeno":"Josef Vrana","povolani":"prezident asociace interi\u00e9rov\u00fdch arch.","partaj":"protiPIR\u00c1TSK\u00c1 kandid\u00e1tka","file":"4_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"5_1":{"jmeno":"Hana Jani\u0161ov\u00e1","povolani":"p\u0159edsedkyn\u011b Pra\u017esk\u00e9ho spolku ochr\u00e1nc\u016f zv\u00ed\u0159at","partaj":"S.O.S ZA PR\u00c1VA ZV\u00cd\u0158AT","file":"5_1","afile":"","pozn":"L\u00eddryn\u011b kandid\u00e1tky"},"6_1":{"jmeno":"Ji\u0159\u00ed Posp\u00ed\u0161il","povolani":"pr\u00e1vn\u00edk, p\u0159edseda TOP 09, p\u0159eds.spr\u00e1v. rady Museum","partaj":"Koalice STAN, TOP 09","file":"6_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"7_1":{"jmeno":"Petr Cibulka","povolani":"p\u011btin\u00e1sobn\u00fd politick\u00fd v\u011bze\u0148 ned\u00e1vn\u00e9 totality","partaj":"Volte Pr.Blok www.cibulka.net","file":"7_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"8_1":{"jmeno":"Marta Semelov\u00e1","povolani":"pedago\u017eka","partaj":"Komunistick\u00e1 str.\u010cech a Moravy","file":"8_1","afile":"","pozn":"L\u00eddryn\u011b kandid\u00e1tky"},"9_2":{"jmeno":"Rudolf Karel Maz\u00e1\u010d","povolani":"hudebn\u00edk, re\u017eis\u00e9r, pr\u00e1vn\u00edk","partaj":"DOST JE DOST! Ob. za sv\u00e1 pr\u00e1va","file":"9_2","afile":"","pozn":"Druh\u00fd na kandid\u00e1tce"},"10_3":{"jmeno":"Jind\u0159ich Kadlec","povolani":"\u0159editel Centra soci\u00e1ln\u011b zdravotn\u00edch slu\u017eeb","partaj":"PLUS","file":"10_3","afile":"","pozn":"T\u0159et\u00ed na kandid\u00e1tce"},"11_1":{"jmeno":"Zden\u011bk H\u0159ib","povolani":"mana\u017eer a informatik","partaj":"\u010cesk\u00e1 pir\u00e1tsk\u00e1 strana","file":"11_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"12_1":{"jmeno":"Stanislava Helferov\u00e1","povolani":"artistka v d\u016fchodu","partaj":"JAUNER \u010ceskoslovensko 2018","file":"x","afile":"x","pozn":"Kandid\u00e1tka mo\u017enost nab\u00edzenou \u010cesk\u00fdm rozhlasem k nato\u010den\u00ed vizitky nevyu\u017eila."},"13_1":{"jmeno":"Pavel Sehnal","povolani":"podnikatel","partaj":"KR\u00c1SN\u00c1 PRAHA - ODA, NK","file":"13_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"14_1":{"jmeno":"Petr Hannig","povolani":"p\u0159edseda ROZUMN\u00ddCH, b\u00fdval\u00fd prezidentsk\u00fd kandid\u00e1t","partaj":"ROZUMN\u00cd","file":"14_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"15_1":{"jmeno":"Petra \u0160ik\u00fd\u0159ov\u00e1","povolani":"jednatelka Sokola Hostiva\u0159,princip\u00e1lka LS Fridol\u00fdn","partaj":"NEZ\u00c1VISL\u00cd","file":"15_1","afile":"","pozn":"L\u00eddryn\u011b kandid\u00e1tky"},"16_2":{"jmeno":"Ji\u0159\u00ed Nouza","povolani":"\u010dlen Zastup. hl. m. Prahy, p\u0159ed.V\u00fdboru pro dopravu","partaj":"STAROSTOV\u00c9 PRO PRAHU","file":"16_2","afile":"","pozn":"Druh\u00fd na kandid\u00e1tce"},"17_4":{"jmeno":"Kate\u0159ina Koprnick\u00e1","povolani":"asistentka mana\u017eera","partaj":"SPR-Republ.str.\u010csl. M.Sl\u00e1dka","file":"17_4","afile":"","pozn":"\u010ctvrt\u00e1 na kandid\u00e1tce"},"18_1":{"jmeno":"Ond\u0159ej Mirovsk\u00fd","povolani":"m\u00edstostarosta M\u010c Praha 7, zastupitel, p\u0159\u00edrodov\u011bdec","partaj":"Strana zelen\u00fdch","file":"18_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"19_1":{"jmeno":"Hynek Beran","povolani":"akademik \u010cVUT","partaj":"Svob.a p\u0159.dem.-T.Okamura (SPD)","file":"19_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"20_1":{"jmeno":"Jan \u010ci\u017einsk\u00fd","povolani":"u\u010ditel, starosta Prahy 7, poslanec","partaj":"PRAHA SOB\u011a","file":"20_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"21_1":{"jmeno":"Jakub Landovsk\u00fd","povolani":"bezpe\u010dnostn\u00ed expert, pedagog, n\u00e1m. ministra obrany","partaj":"\u010cesk\u00e1 str.soci\u00e1ln\u011b demokrat.","file":"21_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"22_1":{"jmeno":"Bohuslav Svoboda","povolani":"l\u00e9ka\u0159","partaj":"Ob\u010dansk\u00e1 demokratick\u00e1 strana","file":"22_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"23_2":{"jmeno":"Ladislav Sivak","povolani":"\u010d\u00ed\u0161n\u00edk","partaj":"Romsk\u00e1 demokratick\u00e1 strana","file":"23_2","afile":"","pozn":"Druh\u00fd na kandid\u00e1tce"},"24_1":{"jmeno":"Ladislav Linek","povolani":"\u017eivnostn\u00edk, 1. m\u00edstop\u0159edseda strany, ekonom","partaj":"Strana soukromn\u00edk\u016f \u010cR","file":"24_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"25_1":{"jmeno":"Jaroslav Dvo\u0159\u00e1k","povolani":"\u017eivnostn\u00edk, in\u017een\u00fdring","partaj":"Zemanovci","file":"25_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"26_5":{"jmeno":"Ji\u0159ina Nik\u00e9 H\u00e1jek","povolani":"st\u00e1tn\u00ed \u00fa\u0159ednice","partaj":"D\u011blnic.str.soci\u00e1ln\u00ed spravedl.","file":"26_5","afile":"","pozn":"P\u00e1t\u00e1 na kandid\u00e1tce"},"27_1":{"jmeno":"Petr Stuchl\u00edk","povolani":"zakladatel Fincentra","partaj":"ANO 2011","file":"27_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"},"28_2":{"jmeno":"Marcela Vydrov\u00e1","povolani":"pedagog II. st. Z\u0160 - obor TV, Z, FY","partaj":"PRO Zdrav\u00ed a Sport","file":"28_2","afile":"","pozn":"Druh\u00e1 na kandid\u00e1tce"},"29_1":{"jmeno":"Ji\u0159\u00ed Witzany","povolani":"vysoko\u0161kolsk\u00fd u\u010ditel - matematika a finance","partaj":"Evropsk\u00e1 koalice pro Prahu","file":"29_1","afile":"","pozn":"L\u00eddr kandid\u00e1tky"}};
+var links=document.getElementsByTagName('a');for(var i=0,linksLength=links.length;i<linksLength;i++){if(links[i].hostname!=window.location.hostname){links[i].target='_blank';links[i].rel='noopener noreferrer';};};
+var host;if(location.href.split('?')[0].indexOf('irozhlas')==-1){host=location.href.split('?')[0];}else{host='https://data.irozhlas.cz/praha-vizitky-18/';}
+function share(url){window.open(url,'Sdílení','width=550,height=450,scrollbars=no');};function makeSelect(){var id=location.href.split('?')[1];if(id!=null){var filtered=data[id]
+if(!filtered){return;}
+document.getElementById(id).scrollIntoView();window.scrollBy(0,-50)}}
+function makeTable(){$('.linked').html('');var out='<h1>Zastupitelstvo Hl. m. Prahy</h1><ul>';for(var per in data){out+='<li id='+per+'><div class="right"><h2><span class="cislo">'
++per.split('_')[0]
++'</span><span>'
++data[per].jmeno
++'</span></h2><span class="strana">'
++data[per].partaj
++'</span> <span class="supplemental">'
++data[per].povolani
++(data[per].pozn!=null?'<div><span class="supplemental">'+data[per].pozn+'</span></div>':'')
++'</span>'
++'<span class="share">Sdílet na <a href="javascript:share(\'https://www.facebook.com/sharer/sharer.php?u='+location.href.split('?')[0]+'?'+per+'\');'
++'">Facebook</a> | <a href="javascript:share(\'https://twitter.com/home?status='
++location.href.split('?')[0]+'?'+per+'\');">Twitter</a></span>'
++(data[per].afile!='x'?'<div><audio class="player" src="'+host+'media/audio/'+data[per].file+'.mp3" preload="none" controls="yes"></audio></div>':'')
++'</div><div class="left"><img width="120" height="180" alt="'
++data[per].jmeno
++'" src="'
++host+'media/foto/'
++data[per].file+'.JPG'
++'"></div></li>'}
+out+='</ul>'
+$('#bottom').html(out);$('.player').click(function(){var kandId=this.src.split('/').slice(-1)[0].split('.')[0];ga('gtm1.send','event','ondemand','play','Obecní volby 2018 Praha - vizitka lídra'+kandId);});}
+makeTable()
+makeSelect()</script>
+
+		</article>
+			<div class="wrapper">
+				<div class="row-main">
+					<section role="region" class="b-category">
+						<div class="b-category__side">
+							<h2 class="title title--icon">
+								<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">
+									<span class="icon-svg icon-svg--bullet">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-bullet" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+									Zahraničí
+								</a>
+							</h2>
+
+<div class="c-grid hide--m">
+	<ul class="c-grid__list">
+
+		<li class="c-grid__item">
+			<div class="b-audio">
+				<p class="b-audio__head">
+					<span class="b-audio__play">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="play-btn">
+							Přehrát
+							<span class="icon-svg icon-svg--play">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-play" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+						</a>
+					</span>
+					<span class="b-audio__meta text-uppercase"><time datetime="2016-10-18">18.10.</time> <a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">Magazín Meteor</a></span>
+				</p>
+				<p class="b-audio__title">
+					Planeta pavouků, hledá se plch velký a jak se rodí objevy?
+				</p>
+			</div>
+		</li>
+		<li class="c-grid__item">
+			<div class="b-audio">
+				<p class="b-audio__head">
+					<span class="b-audio__play">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="play-btn">
+							Přehrát
+							<span class="icon-svg icon-svg--play">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-play" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+						</a>
+					</span>
+					<span class="b-audio__meta text-uppercase"><time datetime="2016-10-18">18.10.</time> <a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">Magazín Meteor</a></span>
+				</p>
+				<p class="b-audio__title">
+					Planeta pavouků, hledá se plch velký a jak se rodí objevy?
+				</p>
+			</div>
+		</li>
+
+	</ul>
+</div>
+						</div>
+
+						<div class="b-category__content">
+							<div class="c-articles">
+								<div class="c-articles__list">
+									<article role="article" class="c-articles__item">
+										<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="b-article">
+											<div class="b-article__img img img--16x9 img--w480 img--w238--m" data-text-version="">
+												<span class="img__holder">
+													<img src="./wrapper_files/480x270.jpg" width="480" height="270" alt="">
+												</span>
+											</div>
+											<div class="b-article__content">
+												<h3 class="text-xl text-sm--m text-regular--m">
+													Na Mars a zpět. Obama věří v cestu lidí na rudou planetu do roku 2030
+												</h3>
+												<p class="text-sm hide--m">
+													Podle rozhodnutí ministerstva vnitra je přes 25 milionů za výpis trestných činů za posledních pět let adekvátní. Česko tak zatím nebude mít podrobnou mapu kriminality, která je v zahraničí běžná. Věcí se nyní...
+												</p>
+											</div>
+										</a>
+									</article>
+
+									<article role="article" class="c-articles__item c-articles__item--w50p">
+										<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="b-article">
+											<div class="b-article__img img img--16x9 img--w238" data-text-version="">
+												<span class="img__holder">
+													<img src="./wrapper_files/238x134.jpg" width="238" height="134" alt="">
+												</span>
+											</div>
+											<div class="b-article__content">
+												<h3 class="text-sm--m text-md text-regular--m">
+													Z dánské rybí farmy uplavalo 80 tisíc pstruhů. Pochytejte je, ohrožují ekosystém, vyzývají odborníci
+												</h3>
+											</div>
+										</a>
+									</article>
+
+									<article role="article" class="c-articles__item c-articles__item--w50p">
+										<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="b-article">
+											<div class="b-article__img img img--16x9 img--w238" data-text-version="">
+												<span class="img__holder">
+													<img src="./wrapper_files/238x134.jpg" width="238" height="134" alt="">
+												</span>
+											</div>
+											<div class="b-article__content">
+												<h3 class="text-sm--m text-md text-regular--m">
+													Video: 'Tanec' boeingu na Letišti Václava Havla. Piloty překvapil poryv větru
+												</h3>
+											</div>
+										</a>
+									</article>
+								</div>
+
+								<p class="c-articles__more hide--d">
+									<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="link-more link-more--next">
+										Další články
+										<span class="icon-svg icon-svg--arrow-dots">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-arrow-dots" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+									</a>
+								</p>
+							</div>
+
+							<div class="c-links hide--m">
+								<ul class="c-links__list">
+									<li class="c-links__item">
+										<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="c-links__link">Archeologové našli pozůstatky římského tábora. Je nejsevernější na našem území</a>
+									</li>
+									<li class="c-links__item">
+										<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="c-links__link">Nové i rekonstruované. Mezi stavbami roku je tunel Blanka i Hospital v Kuksu</a>
+									</li>
+									<li class="c-links__item">
+										<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="c-links__link">Ve vesmíru je desetkrát více galaxií. Většinu z nich zatím nevidíme</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</section>
+				</div>
+			</div>
+		</main>
+
+<footer class="footer" role="contentinfo">
+	<div class="row-main">
+		<nav class="m-footer-m hide--d">
+			<ul class="m-footer-m__list">
+				<li class="m-footer-m__item">
+					<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer-m__link">
+						Cookies
+					</a>
+				</li>
+				<li class="m-footer-m__item">
+					<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer-m__link js-force-desktop">
+						Plná verze
+					</a>
+				</li>
+			</ul>
+
+			<p class="m-footer-m__top">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#top" class="link-top js-scroll-to">
+					Nahoru
+					<span class="icon-svg icon-svg--top">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-top" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+				</a>
+			</p>
+		</nav>
+
+
+		<div class="footer__wrap hide--m">
+			<p class="footer__logo">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#">
+					<span class="vhide">iRozhlas</span>
+					<span class="icon-svg icon-svg--logo-irozhlas">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-logo-irozhlas" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+				</a>
+			</p>
+
+			<nav class="m-tools" aria-labelledby="m-tools">
+				<p class="vhide" id="m-tools">Doplňková navigace</p>
+
+				<ul class="m-tools__list">
+					
+
+					<li class="m-tools__item m-tools__item--mobile">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-tools__link js-force-desktop-reset">
+							<span class="m-tools__icon"><span class="icon-svg icon-svg--mobile">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-mobile" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+</span>
+							<span class="m-tools__label">Mobilní<br> verze</span>
+						</a>
+					</li>
+					<li class="m-tools__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-tools__link">
+							<span class="m-tools__icon"><span class="icon-svg icon-svg--rss">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-rss" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+</span>
+							<span class="m-tools__label">RSS kanály</span>
+						</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="footer__links">
+			<nav class="m-footer hide--m" aria-labelledby="m-footer">
+				<p id="m-footer" class="vhide">Navigace v zápatí</p>
+
+				<ul class="m-footer__list">
+
+					<li class="m-footer__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer__link">Redakce</a>
+					</li>
+					<li class="m-footer__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer__link">Mapa webu</a>
+					</li>
+					<li class="m-footer__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer__link">Soukromí a cookies</a>
+					</li>
+					<li class="m-footer__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer__link">Podmínky užití</a>
+					</li>
+					<li class="m-footer__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer__link">Kontakty</a>
+					</li>
+					<li class="m-footer__item">
+						<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-footer__link">Práce</a>
+					</li>
+				</ul>
+			</nav>
+
+			<p class="footer__copy">
+				© 1997-2016 Český rozhlas
+			</p>
+		</div>
+	</div>
+</footer>
+
+		<nav class="m-mobile">
+<div class="m-mobile__panel">
+	<p class="m-mobile__logo">
+		<span class="vhide">Český rozhlas - Zprávy</span>
+		<span class="icon-svg icon-svg--logo-irozhlas">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-logo-irozhlas" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+	</p>
+
+	<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__close js-mobile-menu">
+		<span class="vhide">Zavřít</span>
+		<span class="icon-svg icon-svg--close">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-close" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+	</a>
+</div>
+
+<div class="m-mobile__wrap">
+	<div class="m-mobile__group m-mobile__group--menu">
+		<form class="m-mobile__search">
+			<p class="inp inp--btn">
+				<label for="search" class="vhide">Vyhledávání</label>
+				<span class="inp__fix">
+					<input type="text" class="inp__text inp__text--md" id="search" name="search">
+				</span>
+				<button class="btn btn--md btn--icon-blank" type="submit">
+					<span class="btn__text">
+						<span class="vhide">Vyhledat</span>
+						<span class="icon-svg icon-svg--search">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-search" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+					</span>
+				</button>
+			</p>
+		</form>
+
+		<ul class="m-mobile__list m-mobile__list--striped">
+
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Domácí</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Svět</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Regiony</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Ekonomika</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Sport</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Věda</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Kultura</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Komentáře</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Zelená vlna</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Počasí</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="m-mobile__group m-mobile__group--submenu">
+		<ul class="m-mobile__list">
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link m-mobile__link--text-version js-text-version" data-toggled="Plná verze">
+					Textová verze
+				</a>
+			</li>
+			
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">
+					Nejnovější zprávy
+				</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="m-mobile__group m-mobile__group--text">
+		<p class="m-socials m-socials--lg">
+			<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-socials__link">
+				<span class="vhide">Facebook</span>
+				<span class="icon-svg icon-svg--facebook">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-facebook" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+			</a>
+			<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-socials__link">
+				<span class="vhide">Twitter</span>
+				<span class="icon-svg icon-svg--twitter">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-twitter" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+			</a>
+			<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-socials__link">
+				<span class="vhide">Google+</span>
+				<span class="icon-svg icon-svg--gplus">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-gplus" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+			</a>
+		</p>
+
+		<div class="m-text">
+			<p>
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-text__invert js-inverse">
+					Inverzně
+				</a>
+			</p>
+		</div>
+	</div>
+
+	<div class="m-mobile__group m-mobile__group--submenu">
+		<ul class="m-mobile__list">
+
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Kontakty</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Redakce</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link">Cookies</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="m-mobile__group m-mobile__group--logos">
+		<ul class="m-mobile__list">
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link m-mobile__link--cesky-rozhlas">
+					<span class="vhide">Český rozhlas</span>
+				</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link m-mobile__link--radiozurnal">
+					<span class="vhide">Radiožurnál</span>
+				</a>
+			</li>
+			<li class="m-mobile__item">
+				<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__link m-mobile__link--plus">
+					<span class="vhide">Plus</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<a href="http://rozhlas2017.superkoderi.cz/tpl/14-datari.html#" class="m-mobile__panel js-mobile-menu">
+	<span class="m-mobile__label">
+		Zavřít menu
+	</span>
+
+	<span class="m-mobile__close">
+		<span class="vhide">Zavřít</span>
+		<span class="icon-svg icon-svg--close">
+	<svg class="icon-svg__svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+		<use xlink:href="./wrapper_files/icons-svg.svg#icon-close" x="0" y="0" width="100%" height="100%"></use>
+	</svg>
+</span>
+
+	</span>
+</a>
+		</nav>
+
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="./wrapper_files/app.js"></script>
+		<script>
+			App.run({});
+		</script>
+		<!--<![endif]-->
+	
+
+</body></html>
