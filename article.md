@@ -7,8 +7,6 @@ styles: []
 libraries: [jquery, "https://code.highcharts.com/maps/highmaps.js"] #jquery, d3, d3v5, d3csv, highcharts, datatables
 options: [] #wide, noheader (, nopic)
 ---
-Český rozhlas oslovil všech 236 kandidátů a kandidátek do Senátu. Část z nich ale nabídku na natočení volební vizitky odmítla. U některých je pak kvůli podezření z porušení pravidel pro jejich vysílání muselo posuzovat právní oddělení Českého rozhlasu. Pravidla pro volební vizitky jsou veřejně dostupná [zde](https://www.rozhlas.cz/informace/volby2018/_zprava/pravidla-pro-nataceni-a-vysilani-volebnich-vizitek-kandidatu-ve-volbach-do-senatu-pcr-2018--1803006).
-
 Český rozhlas oslovil všech 29 lídrů stran a hnutí, kteří by po podzimních komunálních volbách chtěli vést Prahu. Někteří z nich ale nabídku na natočení volební vizitky nevyužili nebo za sebe poslali jiného stranického kandidáta. Pravidla pro volební vizitky jsou veřejně dostupná [zde](https://www.rozhlas.cz/informace/volby2018/_zprava/pravidla-pro-nataceni-a-vysilani-volebnich-vizitek-kandidatu-ve-volbach-do-zastupitelstva-hl-m-prahy-2018--1803007).
 
 <wide>
